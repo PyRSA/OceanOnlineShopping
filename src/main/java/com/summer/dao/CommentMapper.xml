@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.summer.dao.CommentDao">
+	<resultMap id="commentResultMap" type="Comment">
+		<id property="id" column="id" />
+		<result property="comments" column="comments" />
+		<result property="score" column="score" />
+		<result property="time" column="time" />
+		<result property="imgurl" column="imgurl" />
+		<result property="orderid" column="orderid" />
+		<result property="dressid" column="dressid" />
+		<!-- 关联属性 -->
+
+		<association property="user" javaType="User">
+			<id property="id" column="id" />
+			<result property="username" column="username" />
+		</association>
+
+	</resultMap>
+
+	<select id="findComment" parameterType="int"
+		resultMap="commentResultMap">
+		select c.id,c.orderid,c.comments,c.dressid,c.score,c.userid,
+		c.time,c.imgurl,u.id,u.username
+		from comment c,user u
+		where
+		c.userid=u.id
+		and c.dressid=#{dressid}
+	</select>
+
+
+</mapper>

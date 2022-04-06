@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.summer.dao.CartDao">
+	<resultMap id="cartResultMap" type="Cart">
+		<id property="id" column="id" />
+		<result property="booknum" column="booknum" />
+		<!-- 关联属性 -->
+		<association property="dress" javaType="Dress">
+			<id property="dressid" column="dressid" />
+			<result property="dressname" column="dressname" />
+			<result property="price" column="price" />
+			<result property="imgurl" column="imgurl" />
+			<result property="quantity" column="quantity" />
+			<result property="sales" column="sales" />
+		</association>
+		<association property="user" javaType="User">
+			<id property="id" column="id" />
+			<result property="username" column="username" />
+		</association>
+	</resultMap>
+
+	<select id="findCartByUserId" parameterType="int"
+		resultMap="cartResultMap">
+		select
+		c.id,c.dressid,c.userid,c.booknum,u.id,u.username,d.dressid,d.dressname,d.imgurl,d.price,d.quantity,d.sales
+		from cart c,user u,dress d
+		where c.dressid=d.dressid and c.userid=u.id
+		and c.userid=#{userid}
+	</select>
+	<select id="findCart" parameterType="int"
+		resultMap="cartResultMap">
+		select
+		c.id,c.dressid,c.userid,c.booknum,u.id,u.username,d.dressid,d.dressname,d.imgurl,d.price,d.quantity,d.sales
+		from cart c,user u,dress d
+		where c.dressid=d.dressid and c.userid=u.id
+		and c.userid=#{0} and c.dressid=#{1}
+	</select>
+	<select id="findCartByCartId" parameterType="int"
+		resultMap="cartResultMap">
+		select
+		c.id,c.dressid,c.userid,c.booknum,u.id,u.username,d.dressid,d.dressname,d.imgurl,d.price,d.quantity,d.sales
+		from cart c,user u,dress d
+		where c.dressid=d.dressid and c.userid=u.id
+		and c.id=#{id}
+	</select>
+	<delete id="removeCart" parameterType="int">
+		delete from cart where id=#{id}
+	</delete>
+	<insert id="addCart" parameterType="Cart">
+		INSERT INTO
+		cart(dressid, userid, booknum)
+		VALUES
+		(#{dress.dressid}, #{user.id},
+		#{booknum})
+	</insert>
+	<update id="updateCart" parameterType="Cart">
+		UPDATE cart SET
+		booknum=#{booknum} WHERE id= #{id}
+	</update>
+
+</mapper>

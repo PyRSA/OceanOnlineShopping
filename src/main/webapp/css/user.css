@@ -1,0 +1,65 @@
+#page1,
+#page2{
+	border-right: solid 1px #DDDDDD;
+	border-left: solid 1px #DDDDDD;
+	border-bottom: solid 1px #DDDDDD;
+}
+
+#page1>div>div{
+	height: 50px;
+}
+
+#page1>div>textarea{
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+#page1>div>span{
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.userimg{
+	height: 130px;
+}
+
+.userimg>img{
+	height: 100px;
+	width: 100px;
+	border: solid 1px;
+	border-radius: 50%;
+}
+
+.ModifyAddressMsg{
+	margin-left: 35px;
+	padding: 20px;
+	background-color: #999999;
+}
+
+.ModifyAddressMsg>div{
+	height: 30px;
+}
+
+.ModifyAddressMsg>.closeM{
+	position: absolute;
+	margin-left: px;
+}
+
+.buyMsg{
+	margin-top: 50px;
+}
+
+.buyMsg>div{
+	height: 50px;
+}
+
+.buyMsg>div>a{
+	width: 150px;
+}
+
+.addressMsg{
+	margin-bottom: 20px;
+}
+
+

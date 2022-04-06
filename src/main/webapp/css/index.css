@@ -1,0 +1,227 @@
+/**
+ * 涓婚〉js
+ */
+
+/*鎼滅储鍧�*/
+#sosoDiv{
+	margin-top: 20px;
+}
+
+#sosoBtn{
+	width: 70px;
+}
+
+/*涓婚〉闈㈠潡*/
+.mainPage{
+	margin-top: 20px;
+}
+
+.con1{
+	border: solid rgb(49,176,213) 1px;
+	padding: 0;
+}
+
+.row1{
+	background-color: rgb(49,176,213);
+	line-height: 30px;
+	color: white;
+	font-size: 17px;
+	font-weight: 900;
+}
+
+.row2{
+	height: 497px;
+	padding: 0;
+}
+
+.row2>div{
+	height: 71px;
+	font-size: 18px;
+	padding-top: 25px;
+}
+
+.row2>div:hover{
+	background-color: #AFD9EE;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.row2>div>div{
+	height: 68px;
+	font-size: 18px;
+	left: 20px;
+	color: #ADADAD;
+}
+
+
+.con2{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.row3{
+	line-height: 30px;
+}
+
+
+
+.row4{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.ztfl1>div,
+.ztfl2>div,
+.ztfl3>div,
+.ztfl4>div,
+.ztfl5>div,
+.ztfl6>div,
+.ztfl7>div{
+	height: 80px;
+}
+
+.ztfl1,
+.ztfl2,
+.ztfl3,
+.ztfl4,
+.ztfl5,
+.ztfl6,
+.ztfl7{
+	height: 499px;
+	background-color: rgba(175,217,238,0.9);
+	padding: 10px;
+	padding-left: 20px;
+	text-align: left;
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+}
+
+.con3{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+.row5>img{
+	border: solid 6px rgb(49,176,213);
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	margin-left: -50px;
+	margin-top: 5px;
+	position: absolute;
+	z-index: 1;
+}
+ 
+.row6{
+	height: 230px;
+	margin-top: 30px;
+	background-color: #EEEEEE;
+	padding-top: 80px;
+}
+
+.username{
+}
+
+.welcomeStr{
+	color: #ADADAD;
+}
+
+.loginBtn,.reBtn{
+	border-radius: 20px;
+	width: 70px;
+	outline: none;
+}
+
+.row7{
+	margin-top: 10px;
+	background-color: rgb(232,54,50);
+	height: 259px;
+	color: white;
+}
+
+.miaoshaimg{
+	width: 30%;
+}
+
+#lunboDiv{
+	padding-left: 0;
+	padding-right: 0;
+	border: 0;
+}
+
+.imglunbo{
+	height: 499px;
+	width: 100%;
+}
+
+#booklist{
+	color: #000000;
+}
+
+#msDiv{
+	
+}
+
+.mstime{
+	background-color: black;
+	color: white;
+	margin: 2px;
+	font-size: 20px;
+}
+
+
+/*鎺掕姒渄iv*/
+.phpDiv{
+	margin-top: 5px;
+	padding-left: 15px;
+	text-align: center;
+	
+}
+
+.list1,.list2{
+	margin-top: 5px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+.list1{
+	/* border-right: green 1px outset; */
+}
+
+
+.book{
+	background-color: black;
+	height: 210px;
+	border: 5px white solid;
+	background-size: 100%;
+	text-shadow: 1px 1px 2px black;
+	cursor:pointer;
+}
+
+.book:hover{
+	border: 0px;
+	box-shadow: rgb(49,176,213) 0 0 5px;
+}
+
+.bookMsg{
+	margin-top: 140px;
+	line-height: 5px;
+}
+
+.bookMsg>a{
+	color: white;
+}
+
+.bookMsg>span{
+	color: blue;
+}
+
+.morebooks{
+	line-height: 20px;
+	background-color: rgb(49,176,213);
+	color: white;
+	font-weight: 900;
+	margin-left: 5px;
+}

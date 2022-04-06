@@ -1,0 +1,123 @@
+body{
+	background-color: white;
+}
+
+.total{
+	background-color: #222222;
+	padding: 5px;
+	border-bottom: #31B0D5 3px solid;
+	color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.hj{
+	margin-left: 58%;
+	color: white;
+}
+.hj>span{
+	color: red;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.choose>span{
+	color: #31B0D5;
+}
+
+.cartlisttop{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #CCCCCC;
+	padding: 10px;
+}
+
+.cartbookimg{
+	width: 80px;
+	height: 80px;
+}
+
+.bookMsg{
+	background-color: #FCFCFC;
+	padding: 10px;
+	border: 1px solid #EEEEEE;
+	margin-top: 10px;
+}
+
+.cartlistbotton{
+	background-color: #222222;
+	margin-top: 20px;
+	padding: 20px;
+	border-top: #31B0D5 3px solid;
+	color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.checkbox{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.price{
+	margin-top: 30px;
+}
+
+.price>span{
+	color: #31B0D5;
+	font-size: 12px;
+}
+
+.booknum{
+	margin-top: 10px;
+}
+
+.booknum>div{
+	width: 110px;
+}
+
+.booknumMax{
+	color: #8C8C8C;
+	font-size: 12px;
+	text-align: center;
+}
+
+.booknum>div>input{
+	text-align: center;
+	font-size: 12px;
+}
+
+.priceSum{
+	margin-top: 30px;
+	color: red;
+	font-size: 15px;
+}
+
+.operation{
+	margin-top: 25px;
+}
+
+.shareimg{
+	text-align: end;
+}
+
+.shareimg>img{
+	width: 30px;
+}
+
+.sharestr{
+	text-align: left;
+}
+
+.sharelist{
+	width: 100%;
+	height: 30px;
+}
+
+.cartisnull>span{
+	color: #8C8C8C;
+}
+
+.cartlist{
+	margin-top: 20px;
+}

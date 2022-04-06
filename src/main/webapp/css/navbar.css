@@ -1,0 +1,69 @@
+/**
+ * 瀵艰埅鏉℃牱寮�
+ */
+
+/*缃戦〉鑳屾櫙*/
+body{
+	background-color: white;
+}
+
+/*闅愯棌鐧诲綍div*/
+#maxDiv{
+	background-color: rgba(0,0,0,0.5);
+	height: 1024px;
+	width: 100%;
+	position: fixed;
+	z-index: 98;
+	text-align: center;
+	
+}
+
+#login{
+	padding: 40px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	margin-top: 200px;
+	line-height: 20px;
+	z-index: 99;
+	background-color: rgb(34,34,34);
+	color: white;
+	border-radius: 15px;
+}
+
+.loginInput{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+#closeLogin{
+	margin-left: 100%;
+}
+
+/** 灏鹃儴鏍峰紡 **/
+
+.bottomStr{
+	font-size: 12px;
+	margin-top: 50px;
+	background-color: #222222;
+	color: #EEEEEE;
+	text-align: center;
+}
+
+.bottomStr>a{
+	color: #EEEEEE;
+}
+
+.bottomStr>img{
+	width: 15px;
+}
+
+#lxkh{
+	z-index: 3;
+	cursor: pointer;
+}
+#lxkh>img{
+	width: 30px;
+	height: 30px;
+	border: solid 1px white;
+	border-radius: 50%;
+}

@@ -1,0 +1,40 @@
+
+.buyPage>.row1>div>span{
+	font-size: 20px;
+}
+
+.useraddress{
+	height: 80px;
+	margin-top: 10px;
+}
+
+.headStr>div{
+	border-bottom: solid #00A2E8;
+	font-size: 15px;
+}
+
+.bill{
+	background-color: #FCFCFC;
+	padding: 10px;
+	border: solid 1px #EEEEEE;
+	margin-top: 10px;
+}
+
+.bill>div>img{
+	height: 100px;
+	width: 100px;
+}
+
+.bookSum,
+.priceSum{
+	margin-top: 40px;
+}
+
+.buyBtn{
+	margin-top: 20px;
+}
+
+.buyBtn>span{
+	font-size: 20px;
+	color: #D9534F;
+}

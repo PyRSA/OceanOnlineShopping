@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.summer.dao.OrdersDao">
+
+	<select id="findOrderById" parameterType="int"
+		resultType="Order">
+		select * from orders where id=#{0}
+	</select>
+
+	<insert id="addOrder" parameterType="Order" keyProperty="id"
+		useGeneratedKeys="true">
+		INSERT INTO orders(money, receiverAddress,
+		receiverName,receiverPhone,paystate,ordertime,userid)
+		VALUES
+		(#{money},
+		#{receiverAddress}, #{receiverName}, #{receiverPhone}, #{paystate},
+		#{ordertime}, #{user.id})
+	</insert>
+	<insert id="addOrderItem" parameterType="OrderItem">
+		INSERT INTO
+		orderitem(orderid, dressid, buynum)
+		VALUES
+		(#{order.id},
+		#{dress.dressid}, #{buynum})
+	</insert>
+	<update id="updateOrder" parameterType="Order">
+		UPDATE orders SET
+		paystate=#{paystate} WHERE id= #{id}
+	</update>
+
+</mapper>

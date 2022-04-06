@@ -1,0 +1,53 @@
+
+#page0,
+#page1,
+#page2,
+#page3{
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.PageAdmin,
+.ordersAdmin,
+.ordersAdmin{
+	margin-left: 30px;
+}
+
+.indexlunboimgDiv>form>span{
+	border-bottom: solid #00A2E8;
+	font-size: 20px;
+}
+
+.order{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 97%;
+	padding: 20px;
+	text-align: center;
+	background-color: #CCCCCC;
+}
+
+.ordertop{
+	margin-top: 20px;
+	border-bottom: 2px solid #00A2E8;
+	width: 97%;
+	text-align: center;
+}
+
+.name,
+.pro_id,
+.username,
+.pnum,
+.logistics{
+	margin-top: 3px;
+	text-align: center;
+}
+
+.mainimg,
+.img1,
+.img2,
+.img3{
+	width: 80px;
+	height: 100px;
+}

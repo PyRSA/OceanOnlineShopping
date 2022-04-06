@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias alias="User" type="com.summer.entity.User"/>
+		<typeAlias alias="Dress" type="com.summer.entity.Dress"/>
+		<typeAlias alias="Comment" type="com.summer.entity.Comment"/>
+		<typeAlias alias="Order" type="com.summer.entity.Order"/>
+		<typeAlias alias="OrderItem" type="com.summer.entity.OrderItem"/>
+		
+		<typeAlias alias="Cart" type="com.summer.entity.Cart"/>
+	</typeAliases>	
+	<mappers>
+		<mapper resource="com/summer/dao/UserMapper.xml"/>	
+		<mapper resource="com/summer/dao/DressMapper.xml"/>	
+		<mapper resource="com/summer/dao/CommentMapper.xml"/>
+		
+		<mapper resource="com/summer/dao/CartMapper.xml"/>
+		<mapper resource="com/summer/dao/OrdersMapper.xml"/>			
+	</mappers>
+</configuration>

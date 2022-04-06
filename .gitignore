@@ -1,0 +1,21 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Maven template
+target/
+
+### Java template
+*.class
+*.log
+*.jar
+*.war
+
+### JetBrains template
+.idea/
+out/
+*.iml
+tomcat*/
+
+### macOS template
+# General
+.DS_Store
+
+

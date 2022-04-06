@@ -1,0 +1,17 @@
+{
+	"currentPage": "1",
+	"totalPage": "2",
+	"evaluation": [
+		{
+			"name": "淘专家",
+			"type": "超级会员",
+			"str": "非常6",
+			"date": "2016.3.2",
+			"imgurl":[
+						{"url":"img/logo.png"},
+						{"url":"img/logo.png"},
+						{"url":"img/594b85ff326ff.jpg"}
+					]
+		}
+	]
+}

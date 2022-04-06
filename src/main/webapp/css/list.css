@@ -1,0 +1,116 @@
+
+
+/*搜索框块*/
+#sosoDiv{
+	margin-top: 20px;
+}
+
+#sosoBtn{
+	width: 70px;
+}
+
+/*分类搜索块*/
+.bookfl>select{
+	height: 30px;
+}
+/*筛选块*/
+.sxtjDiv{
+	padding: 0;
+	margin-top: 20px;
+}
+
+.sxtjDiv>nav{
+	height: 20px;
+}
+
+.salesBtn,.pnumBtn{
+}
+
+.salesBtn>span,.pnumBtn>span{
+	font-size: 10px;
+}
+
+.priceInput>div>input{
+	width: 50px;
+}
+
+/*搜索结果列表*/
+
+#dow{
+	text-align: center;
+}
+
+#dow>span{
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+	font-size: 30px;
+	font-weight: 500;
+	position: fixed;
+	margin-top: 150px;
+	margin-left: -80px;
+	z-index: 9999;
+}
+
+.booklist{
+	border: solid 1px #E7E7E7;
+	border-radius: 5px;
+	background-color: #F8F8F8;
+	padding: 30px;
+	padding-bottom: 5px;
+}
+
+.booklist>div>div{
+	margin-bottom: 30px;
+}
+
+.booklist>div>div>div{
+	cursor: pointer;
+	border: solid 1px rgba(0,0,0,0);
+	background-color: white;
+
+}
+
+.booklist>div>div>div:hover{
+	border: solid 1px #31B0D5;
+}
+
+.bookimg:hover{
+	border: solid 5px rgba(0,0,0,0);
+}
+
+.bookimg{
+	height: 300px;
+	background-size: 100%;
+}
+
+.bookStr{
+	height: 100px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.bookStr>.money{
+	font-weight: 800;
+	font-size: 20px;
+	color: #31B0D5;
+}
+
+.bookStr>a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #000000;
+}
+
+.bookStr>a:hover{
+	color: #31B0D5;
+}
+
+.by{
+	background-color: red;
+	padding: 2px;
+	color: white;
+	font-size: 12px;
+	border-radius: 2px;
+}

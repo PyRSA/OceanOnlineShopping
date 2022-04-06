@@ -1,0 +1,213 @@
+.input{
+	height: 50px;
+}
+
+textarea{
+	margin-bottom: 50px;
+}
+
+.max{
+	margin-top: 40px;
+	border: solid 1px #8C8C8C;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 70%;
+	background-color: #D5D5D5;
+}
+#mainimg{
+	width: 200px;
+	height: 300px;
+}
+
+/*主容器*/
+
+body{
+	background-color: white;
+}
+
+.con-FangDa{
+	width: 300px;
+	height: auto;
+	margin: 10px auto;
+	background-color:#fff;
+}
+/*正常容器*/
+.con-fangDaIMg{
+	width: 300px;
+	height: 450px;
+	position: relative;
+	background-color: #454545;
+}
+.con-fangDaIMg > img{
+	width: 100%;
+	height:100%
+}
+/*滑块*/
+.magnifyingBegin{
+	width: 150px;
+	height: 175px;
+	left: 0;
+	top: 0;
+	background-color: #454545;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	position: absolute;
+	cursor: move;
+	display: none;
+}
+/*放大镜显示区域*/
+.magnifyingShow{
+	width: 450px;
+	height: 514px;
+	display: none;
+	position: absolute;
+	right: -470px;
+	top: 0;
+	overflow: hidden;
+	background-color: #454545;
+	z-index: 9999;
+}
+.magnifyingShow > img{
+	width: 900px;
+	height: 1350px;
+	margin-left:0;
+	margin-top: 0;
+}
+/*设置选择图片容器*/
+.con-FangDa-ImgList{
+	margin-top:10px;
+	height:54px;
+	width:320px;
+	list-style: none;
+}
+.con-FangDa-ImgList > li{
+	margin-right:7px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	cursor: pointer;
+	border: 2px solid #666;
+	background-color: #454545;
+	text-align:center;
+}
+
+.con-FangDa-ImgList > li > img{
+	vertical-align:top;
+	display:inline;
+	width:auto;
+	height:50px;
+}
+.con-FangDa-ImgList > .active{
+	border-color:#000;
+}
+/* 详情表 */
+
+.bookname{
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
+
+.priceStr{
+	padding: 5px;
+	width: 330px;
+	border: dotted 2PX;
+	border-radius: 3PX;
+	margin-bottom: 30px;
+}
+
+.priceStr>.str{
+	color: #A0A0A0;
+}
+
+.price{
+	color: #31B0D5;
+	font-size: 50px;
+}
+
+.sales{
+	line-height: 30PX;
+	color: #A0A0A0;
+	text-align: left;
+}
+
+.sales>span{
+	color: #31B0D5;
+	font-weight: 900;
+}
+
+.sales>div{
+	width: 60%;
+}
+
+.buy{
+	color: #A0A0A0;
+	margin-top: px;
+}
+
+.buy>.input-group{
+	width: 135px;
+	margin-bottom: 20px;
+}
+
+.priceSum{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.priceSum>span{
+	color: #FF0000;
+	font-size: 30px;
+	
+}
+
+.buyMax{
+	font-size: 10px;
+}
+
+#isadd{
+	border: solid 1px #31B0D5;
+	color: #31B0D5;
+	background-color: rgba(49,176,213,0.2);
+}
+
+#isbuy{
+	border: solid 1px #31B0D5;
+	background-color: rgba(49,176,213,1);
+	color: white;
+}
+
+#isadd,#isbuy{
+	height: 35px;
+	width: 165px;
+}
+
+/* 预览*/
+.bookMsg{
+	background-color: white;
+	border: solid 2px #00A2E8;
+	width: 800px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	position: fixed;
+	margin-left: 550px;
+	z-index: 2;
+}
+
+#closeBookMsg{
+	text-align: center;
+	padding: 3px;
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-left: 750px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.formmax>div>span{
+	color: red;
+}
