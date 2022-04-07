@@ -42,11 +42,11 @@
 
   3.IDEA配置运行环境
 
-  ![image-20220406182836868](/Users/tuso/Library/Application Support/typora-user-images/image-20220406182836868.png)
+  ![image-20220406182836868](./docimg/image-20220406182836868.png)
 
-  ![image-20220406181944456](/Users/tuso/Library/Application Support/typora-user-images/image-20220406181944456.png)
+  ![image-20220406181944456](./docimg/image-20220406181944456.png)
 
-  ![image-20220406182238946](/Users/tuso/Library/Application Support/typora-user-images/image-20220406182238946.png)
+  ![image-20220406182238946](./docimg/image-20220406182238946.png)
 
   
 
@@ -54,15 +54,15 @@
 
 - 编辑运行配置
 
-![image-20220406182717093](/Users/tuso/Library/Application Support/typora-user-images/image-20220406182717093.png)
+![image-20220406182717093](./docimg/image-20220406182717093.png)
 
-![image-20220406182508554](/Users/tuso/Library/Application Support/typora-user-images/image-20220406182508554.png)
+![image-20220406182508554](./docimg/image-20220406182508554.png)
 
 - 配置项目结构
 
   File -> project Structre...
 
-  ![image-20220406183714909](/Users/tuso/Library/Application Support/typora-user-images/image-20220406183714909.png)
+  ![image-20220406183714909](./docimg/image-20220406183714909.png)
 
   - 运行项目
 
