@@ -270,14 +270,15 @@
 							</script>
 						</div>
 					</c:if>
-					<a href="http://ww.baidu.com">
-						<div class="col-xs-12 row7" id="msDiv">
+					<a href="http://miaosha.jd.com">
+						<div class="col-xs-12 row7" id="msDiv" style="background-image: url(img/miaosha.png)">
 							<h1>进入秒杀</h1>
-							<h3 style="color: #C0C0C0;">SECKILL</h3>
-							<img src="img/miaosha.png" class="miaoshaimg"/><br />
-							<span class="msjs">距本场秒杀结束剩余</span><br />
-							<span class="mstime hh">02</span>
-							<span class="mstime mm">59</span>
+							<h3 style="color: #C0C0C0; line-height: 1">SECKILL</h3>
+							<br><br><br>
+<%--							<img src="img/miaosha.png" class="miaoshaimg"/><br />--%>
+							<span class="msjs">距本场秒杀结束剩余</span><br><br>
+							<span class="mstime hh">02</span>:
+							<span class="mstime mm">59</span>:
 							<span class="mstime ss">59</span>
 						</div>
 					</a>
