@@ -5,7 +5,7 @@
 <html>
 <head>
 
-<title>砺锋时装城</title>
+<title>海洋线上时装城</title>
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 		<script src="bootstrap/js/jquery-3.1.0.min.js" ></script>
 		<script src="bootstrap/js/jquery-1.11.2.min.js"></script>

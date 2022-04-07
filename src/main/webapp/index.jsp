@@ -260,7 +260,7 @@
 							<img src="${user.headimg }" height="100px" width="100px"/>
 						</a>
 						<div class="col-xs-12 row6">
-							<p class="welcomeStr">Hi~欢迎来到网上时装城！</p>
+							<p class="welcomeStr">Hi~欢迎来到海风网上时装城！</p>
 							<a class="username" href="user.jsp"><h3 id="index_username">${user.name }</h3></a>
 							<button type="button" class="btn btn-info loginBtn loginbutton">登录</button>
 							<a href="registered.jsp" class="btn btn-primary reBtn">注册</a>
@@ -276,7 +276,7 @@
 							<h3 style="color: #C0C0C0;">SECKILL</h3>
 							<img src="img/miaosha.png" class="miaoshaimg"/><br />
 							<span class="msjs">距本场秒杀结束剩余</span><br />
-							<span class="mstime hh">59</span>
+							<span class="mstime hh">02</span>
 							<span class="mstime mm">59</span>
 							<span class="mstime ss">59</span>
 						</div>
@@ -291,41 +291,50 @@
 		<div class="container phpDiv">
 			<div class="row">
 				<div class="col-md-6 col-xs-12 list1">
-					<h4>热销排行</h4>
-					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t10.jpg);">
+					<h4><a target="_blank"
+						   href="https://xiapi.xiapibuy.com/Large-Size-Dress-cat.11040766.11040791.11040795?page=0&sortBy=sales">热销排行</a></h4>
+					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t10.jpg);
+					 height: auto; background-repeat: no-repeat">
 						&nbsp;
 						<div class="bookMsg">
-							<a class="bookname" href="http://www.baidu.com">
+							<a class="bookname" target="_blank"
+							   href="https://xiapi.xiapibuy.com/%E2%9D%A4%E3%80%90%E5%A4%A7%E5%B0%BA%E7%A2%BC%E7%A6%AE%E6%9C%8D%E3%80%91%E5%90%88%E5%94%B1%E5%9C%98%E7%A6%AE%E6%9C%8D%E5%A5%B3%E9%95%B7%E8%A3%99-%E8%A1%A8%E6%BC%94%E6%9C%8D-%E7%B7%8A%E8%BA%AB%E5%A5%B3%E4%B8%BB%E6%8C%81%E4%BA%BA%E7%A6%AE%E6%9C%8D-%E6%99%9A%E6%9C%83%E6%B0%A3%E8%B3%AA%E9%95%B7%E6%AC%BE%E6%B4%8B%E8%A3%9D-%E5%B0%BE%E7%89%99%E9%85%92%E6%9C%83%E7%B7%8A%E8%BA%AB%E9%A1%AF%E7%98%A6%E5%B0%8F%E7%A6%AE%E6%9C%8D-%E7%AB%AF%E8%8E%8A%E5%A4%A7%E6%B0%A3%E6%99%9A%E5%AE%B4%E6%9C%8D-i.58373826.17303162051">
+							<a class="bookname" target="_blank"
+							   href="https://xiapi.xiapibuy.com/%E6%B0%91%E4%BF%97%E9%A2%A8%E6%9C%8D%E9%A3%BE%E5%96%9C%E5%AE%B4%E6%B4%8B%E8%A3%9D%E5%A4%A7%E5%B0%BA%E7%A2%BC%E4%BC%B4%E5%A8%98%E6%9C%8D%E4%B8%BB%E5%A9%9A%E4%BA%BA%E7%A6%AE%E6%9C%8D%E7%A6%AE%E6%9C%8D%E5%A9%9A%E7%A6%AE%E6%99%9A%E5%AE%B4%E4%BC%B4%E5%A8%98-i.686101410.15364538051">
 						</div>
 					</div>
-					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t39.jpg);">
+					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t39.jpg);height: auto; background-repeat: no-repeat">
 						&nbsp;
 						<div class="bookMsg">
-							<a class="bookname" href="http://www.hao123.com">
+							<a class="bookname" target="_blank"
+							   href="https://xiapi.xiapibuy.com/%E3%80%90%E7%8F%BE%E8%B2%A8%E5%85%8D%E9%81%8B%E3%80%91%E5%A9%9A%E7%B4%97-%E6%96%B0%E5%A8%98%E6%8A%B9%E8%83%B8%E9%BD%8A%E5%9C%B0%E9%9F%93%E7%B3%BB%E7%B0%A1%E7%B4%84%E5%BD%B1%E6%A8%93%E5%A4%A7%E5%B0%BA%E7%A2%BC%E9%A1%AF%E7%98%A6-%E9%95%B7%E6%AC%BE%E7%A6%AE%E6%9C%8D-%E5%A5%B3%E7%94%9F%E8%BC%95%E5%A9%9A%E7%B4%97%E7%A6%AE%E6%9C%8D-%E6%B4%8B%E8%A3%9D-%E5%A9%9A%E7%B4%97%E7%A6%AE%E6%9C%8D-%E7%99%BD%E8%89%B2%E6%B4%8B%E8%A3%9D-i.145028917.8598794973">
 						</div>
 					</div>
-					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t38.jpg);">
+					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t38.jpg);height: auto; background-repeat: no-repeat">
 						&nbsp;
 						<div class="bookMsg">
-							<a class="bookname" href="javascript:void(0)">
+							<a class="bookname" target="_blank"
+							   href="https://xiapi.xiapibuy.com/%E2%9D%A4%E3%80%90%E5%A4%A7%E5%B0%BA%E7%A2%BC%E7%A6%AE%E6%9C%8D%E3%80%91%E5%90%88%E5%94%B1%E5%9C%98%E7%A6%AE%E6%9C%8D%E5%A5%B3%E9%95%B7%E8%A3%99-%E8%A1%A8%E6%BC%94%E6%9C%8D-%E7%B7%8A%E8%BA%AB%E5%A5%B3%E4%B8%BB%E6%8C%81%E4%BA%BA%E7%A6%AE%E6%9C%8D-%E6%99%9A%E6%9C%83%E6%B0%A3%E8%B3%AA%E9%95%B7%E6%AC%BE%E6%B4%8B%E8%A3%9D-%E5%B0%BE%E7%89%99%E9%85%92%E6%9C%83%E7%B7%8A%E8%BA%AB%E9%A1%AF%E7%98%A6%E5%B0%8F%E7%A6%AE%E6%9C%8D-%E7%AB%AF%E8%8E%8A%E5%A4%A7%E6%B0%A3%E6%99%9A%E5%AE%B4%E6%9C%8D-i.58373826.17303162051">
 						</div>
 					</div>
 					</div>
 				<div class="col-md-6 col-xs-12 list2">
-					<h4>好评排行</h4>
-					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t34.jpg);">
+					<h4><a target="_blank"
+						   href="https://xiapi.xiapibuy.com/Large-Size-Dress-cat.11040766.11040791.11040795?page=0&sortBy=relevancy">好评排行</a></h4>
+					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t34.jpg);height: auto; background-repeat: no-repeat">
 						&nbsp;
 						<div class="bookMsg">
 							<a class="bookname" href="javascript:void(0)">
 						</div>
 					</div>
-					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t36.jpg);">
+					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t32.jpg);height: auto;
+					background-repeat: no-repeat">
 						&nbsp;
 						<div class="bookMsg">
 							<a class="bookname" href="javascript:void(0)">
 						</div>
 					</div>
-					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t35.jpg);">
+					<div class="col-md-4 col-xs-12 book" style="background-image: url(img/female/t35.jpg);height: auto; background-repeat: no-repeat">
 						&nbsp;
 						<div class="bookMsg">
 							<a class="bookname" href="javascript:void(0)">

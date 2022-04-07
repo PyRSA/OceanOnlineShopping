@@ -237,7 +237,7 @@
 							<img src="${user.headimg }" height="100px" width="100px"/>
 						</a>
 						<div class="col-xs-12 row6">
-							<p class="welcomeStr">Hi~欢迎来到网上书城！</p>
+							<p class="welcomeStr">Hi~欢迎来到海洋网上书城！</p>
 							<a class="username" href="user.jsp"><h3 id="index_username">${user.name }</h3></a>
 							<button type="button" class="btn btn-info loginBtn loginbutton">登录</button>
 							<a href="registered.jsp" class="btn btn-primary reBtn">注册</a>

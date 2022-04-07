@@ -59,7 +59,7 @@
 						<span id="ckepop">
 							<span class="jiathis_txt">分享到</span>
 							<a href="http://www.jiathis.com/share"  class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
-							<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1" charset="utf-8"></script>
+							<%--<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1" charset="utf-8"></script>--%>
 						</span>
 						<script>
 							$("#ckepop").css("position","absolute");
